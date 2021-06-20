@@ -1,0 +1,163 @@
+/*common start*/
+body{
+       margin: 0;
+       padding: 0;
+       font-family: 'Open Sans', sans-serif;
+}
+/*common end*/
+
+/*header start*/
+header{
+       height: 50px;
+       padding: 20px 0;
+       border-bottom: 1px solid #f1f2f4
+;
+
+
+}
+.container{
+       overflow: hidden;
+       width:1065px ;
+       margin: 0 auto;
+   
+}
+.logo{
+       float: left;
+       width: 10%;
+       margin-top: 1px;
+}
+
+.logo  img{
+       width: 100%;
+       margin-top: 5px;
+}
+
+
+.menu{
+       float: right ;
+       width: 50%;
+       
+
+
+
+}
+
+.menu ul{
+       float: right;
+
+}
+.menu ul li{
+       list-style: none;
+       float: left;
+       color: #C10037 !important;
+
+}
+.menu ul li a{
+
+       text-decoration: none;
+       margin: 0 15px;
+       margin-top: 3px;
+       display: inline-block;
+       font-family: 'Open Sans', sans-serif;
+       font-size: 18px;
+       color: #0F2656;
+       text-transform: capitalize;
+
+}
+.menu ul li a:hover{
+       color: #0088FF;
+
+}
+.menu ul li:last-child a {
+       margin-right: 0;
+}
+/*header end*/
+
+/*banner-sectiom start*/
+.banner-section{
+       font-family: 'Open Sans', sans-serif;
+       padding: 15px 0;
+
+}
+.banner-text{
+       text-align: center;
+}
+.banner-text h1{
+       font-weight: bold;
+    font-size: 40px;
+    color: #0f2656;   
+}
+.banner-text span{
+
+       font-weight: bold;
+       color: #008aff;
+}
+.banner-text p{
+       color: #0f2656;
+}
+.banner-img{
+       text-align: center;
+}
+/*banner-sectiom end*/
+
+/* Success Code Start */
+
+
+.success-text-left{
+       color: #0f2656;
+       padding: 30px 0px; 
+       float: left;
+       width: 50%;
+       text-align: right;
+}
+
+.success-text-left span{
+         font-size: 40px;
+         font-weight: bold;
+         color:#F05566; 
+}
+.success-text-right{
+    padding: 0px 0px;
+    float: right;
+    width: 49%;
+    text-align: left;
+}
+
+.success-text-right h1{
+       font-size: 40px;
+    font-weight: bold;
+    color: #041D4E;
+}
+/* Success Code end */
+
+
+    /*-- Service Code Start */
+
+
+        /*-- Service Code end */
+.service:nth-child(1){
+    background-color: #FEEBED;
+}
+.service:nth-child(2){
+    background-color: #EAF9F4;
+}
+.service:nth-child(3){
+    background-color: #FFF8E8;
+}
+.service {
+    
+}
+.service:hover{
+    box-shadow: -1px 1px 5px 3px rgba(0,0,0,0.33);
+}
+.service img{
+    width: auto;
+}
+.service h3{
+    text-align: left;
+}
+.service p{
+    text-align: left;
+}
+
+
